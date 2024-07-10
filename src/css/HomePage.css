@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+  }
+
+  .coffee-box, .tea-box {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .coffee-button, .tea-button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    /* font-family: ; */
+  }
+
+  .coffee-box {
+    background-color: #542F0D;
+  }
+  
+  .tea-box {
+    background-color: #4B890D;
+  }
+  
+  .tea-button {
+    background-color: #6DD109;
+  }
+  
+  .coffee-button {
+    background-color: #B1753F;
+  }
