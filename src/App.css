@@ -5,6 +5,23 @@
   text-align: center;
 }
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* 
+    check out what 'will-change' is...
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -13,4 +30,4 @@
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
-}
+} */
