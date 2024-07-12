@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Home from './components/HomePage.jsx';
 import CoffeePage from './components/CoffeePage.jsx'
 import CoffeeInputForm from './components/CoffeeInputForm.jsx'
 
